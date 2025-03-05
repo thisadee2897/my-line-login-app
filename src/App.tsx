@@ -9,7 +9,6 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/callback" element={<CallbackScreen />} />
-        {/* <Route path="/callback2" element={<CallbackScreen2 />} /> */}
       </Routes>
     </Router>
   );
